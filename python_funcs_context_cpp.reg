@@ -1,0 +1,42 @@
+Windows Registry Editor Version 5.00
+
+; ---------- SUBMENU PAI ----------
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs]      ; * = vale para qualquer tipo de arquivo
+"MUIVerb"="Python Functions"                ; nome exibido
+"Icon"="C:\\Users\\OU000150\\OneDrive\\Images\\Icons\\machinelearning.ico"        ; opcional – ícone
+"SubCommands"=""                             ; habilita submenu
+
+; ---------- ITEM convert_pdf_into_images ----------
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\convert_pdf_into_images]
+@="Convert Pdf Into Images"
+
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\convert_pdf_into_images\command]
+@="\"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\run_silent.exe\" \"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\scripts\\python\\convert_pdf_into_images.py\" \"%1\""
+
+; ---------- ITEM generate_info ----------
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\generate_info]
+@="Generate Info"
+
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\generate_info\command]
+@="\"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\run_silent.exe\" \"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\scripts\\python\\generate_info.py\" \"%1\""
+
+; ---------- ITEM markdown_to_html ----------
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\markdown_to_html]
+@="Markdown To Html"
+
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\markdown_to_html\command]
+@="\"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\run_silent.exe\" \"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\scripts\\python\\markdown_to_html.py\" \"%1\""
+
+; ---------- ITEM markdown_to_pdf ----------
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\markdown_to_pdf]
+@="Markdown To Pdf"
+
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\markdown_to_pdf\command]
+@="\"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\run_silent.exe\" \"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\scripts\\python\\markdown_to_pdf.py\" \"%1\""
+
+; ---------- ITEM remove_background ----------
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\remove_background]
+@="Remove Background"
+
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\remove_background\command]
+@="\"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\run_silent.exe\" \"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\scripts\\python\\remove_background.py\" \"%1\""

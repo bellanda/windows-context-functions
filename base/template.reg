@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; ---------- SUBMENU PAI ----------
+[HKEY_CLASSES_ROOT\\*\\shell\\PythonFuncs]      ; * = vale para qualquer tipo de arquivo
+"MUIVerb"="Python Functions"                ; nome exibido
+"Icon"="C:\\Users\\OU000150\\OneDrive\\Images\\Icons\\python.ico"        ; opcional – ícone
+"SubCommands"=""                             ; habilita submenu
