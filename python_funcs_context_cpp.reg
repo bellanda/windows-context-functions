@@ -20,6 +20,13 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\generate_info\command]
 @="\"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\run_silent.exe\" \"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\scripts\\python\\generate_info.py\" \"%1\""
 
+; ---------- ITEM heif_to_jpg ----------
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\heif_to_jpg]
+@="Heif To Jpg"
+
+[HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\heif_to_jpg\command]
+@="\"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\run_silent.exe\" \"C:\\Users\\OU000150\\code\\exclude-from-compact\\windows-context-functions\\scripts\\python\\heif_to_jpg.py\" \"%1\""
+
 ; ---------- ITEM markdown_to_html ----------
 [HKEY_CLASSES_ROOT\*\shell\PythonFuncs\shell\markdown_to_html]
 @="Markdown To Html"
